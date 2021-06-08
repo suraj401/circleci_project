@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/buildpack-deps:stretch
     environment:
-      IMAGE_NAME: suraj18/circleci_project:latest
+      IMAGE_NAME: suraj18/circleci_project
     working_directory: ~/app
     steps:
       - checkout
