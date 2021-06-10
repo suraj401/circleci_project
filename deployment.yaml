@@ -12,7 +12,7 @@ metadata:
     keel.sh/pollSchedule: "@every 30s"
 spec:
   replicas: 1
-  revisionHistoryLimit: 5
+  revisionHistoryLimit: 2
   selector:
     matchLabels:
       app: circle-project
